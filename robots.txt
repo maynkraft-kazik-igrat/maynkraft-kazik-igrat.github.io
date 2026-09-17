@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maynkraft-kazik-igrat.github.io/sitemap.xml
