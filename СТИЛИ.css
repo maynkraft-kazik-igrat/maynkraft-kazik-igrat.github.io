@@ -209,6 +209,14 @@ a { text-decoration: none; }
 .acc-body h5 { margin: 12px 0 6px; color: var(--muted); }
 .acc-body p { margin-bottom: 10px; }
 
+/* ---------- СЛИТЫЕ ТЕМЫ (главная) ---------- */
+.topic-h2 {
+  font-size: clamp(1.3rem, 2.6vw, 1.85rem); line-height: 1.2;
+  color: var(--blu3); margin: 46px 0 14px; padding-top: 24px;
+  border-top: 3px solid var(--blu2);
+}
+.topic-intro { font-size: 1.05rem; margin-bottom: 22px; }
+
 /* ---------- ПОДВАЛ ---------- */
 .site-footer { background: #0c1e4e; color: #c9d2ec; padding: 44px 20px 24px; }
 .footer-nav {
@@ -217,15 +225,13 @@ a { text-decoration: none; }
 }
 .footer-nav a { color: #fff; font-weight: 600; }
 .footer-nav a:hover { color: var(--blu-h); }
-.footer-counters { text-align: center; margin-bottom: 14px; color: var(--muted); }
-.footer-counters strong { color: #fff; }
 .footer-about { max-width: 780px; margin: 0 auto 16px; text-align: center; color: #9fa9d8; font-size: .9rem; }
 .footer-bottom {
   display: flex; flex-wrap: wrap; gap: 6px 20px;
   justify-content: center; align-items: center;
 }
 .copyright { text-align: center; color: #6f7bb0; font-size: .82rem; }
-.site-stats { margin: 0; padding: 0; font-size: 14px; text-align: center;
+.site-stats { margin: 0 0 12px; padding: 0; font-size: 14px; text-align: center;
   color: #ffd4ce; letter-spacing: .3px; }
 .live-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%;
   background: #ff3d2e; box-shadow: 0 0 8px rgba(255,61,46,.7); margin-right: 7px;
@@ -258,6 +264,8 @@ a { text-decoration: none; }
   .hero-sub { margin-bottom: 22px; }
   .acc summary h2 { font-size: 1.05rem; }
   .acc-body { padding: 0 16px 18px; }
+  .topic-h2 { margin: 34px 0 12px; padding-top: 18px; }
+  .topic-intro { font-size: 1rem; margin-bottom: 18px; }
   .prose, .games, .icat { padding: 40px 0; }
   .lw-card { flex: 0 0 calc(72vw - 8px); margin-right: 12px; padding: 8px 11px; gap: 9px; }
   .lw-img, .lw-img img { width: 46px; height: 62px; }
